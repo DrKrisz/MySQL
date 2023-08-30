@@ -4,3 +4,8 @@ SELECT * FROM world.city;
 -- Oppgave 4.2
 SELECT * FROM world.city;
 WHERE countrycode = 'NOR';
+
+-- Oppgave 4.3
+SELECT Name, Population;
+FROM city
+WHERE countrycode = 'NOR';
