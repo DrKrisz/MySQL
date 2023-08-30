@@ -27,3 +27,8 @@ WHERE Continent = 'Asia';
 SELECT Name, SurfaceArea
 FROM country
 ORDER BY SurfaceArea ASC;
+
+-- Opgave 4.8
+SELECT Name, LifeExpectancy, Population
+FROM country
+ORDER BY LifeExpectancy DESC, Population ASC;
