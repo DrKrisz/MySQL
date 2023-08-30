@@ -22,3 +22,8 @@ FROM country;
 SELECT SUM(Population) AS TotalPopulationInAsia
 FROM country
 WHERE Continent = 'Asia';
+
+-- Oppgave 4.7
+SELECT Name, SurfaceArea
+FROM country
+ORDER BY SurfaceArea ASC;
