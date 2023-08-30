@@ -17,3 +17,8 @@ FROM country;
 -- Oppgave 4.5
 SELECT SUM(Population) AS WorldPopulation
 FROM country;
+
+-- Oppgave 4.6
+SELECT SUM(Population) AS TotalPopulationInAsia
+FROM country
+WHERE Continent = 'Asia';
