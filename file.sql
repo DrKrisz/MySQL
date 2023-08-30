@@ -9,3 +9,7 @@ WHERE countrycode = 'NOR';
 SELECT Name, Population;
 FROM city
 WHERE countrycode = 'NOR';
+
+-- Oppgave 4.4
+SELECT COUNT(*) AS TotalCountries
+FROM country;
