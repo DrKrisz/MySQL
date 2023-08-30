@@ -13,3 +13,7 @@ WHERE countrycode = 'NOR';
 -- Oppgave 4.4
 SELECT COUNT(*) AS TotalCountries
 FROM country;
+
+-- Oppgave 4.5
+SELECT SUM(Population) AS WorldPopulation
+FROM country;
